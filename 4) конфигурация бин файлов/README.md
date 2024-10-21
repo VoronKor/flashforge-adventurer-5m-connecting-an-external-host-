@@ -14,7 +14,6 @@ make
 
 # для прошивки платы майнбоард вот такие
 ```shell
-~
 make menuconfig
 ``` 
 ![mainboard](https://i.ibb.co/xGCpB4f/Screenshot-6.png)
