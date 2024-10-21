@@ -22,4 +22,4 @@
 ![pl1](https://ibb.co/rbdS5my)
 
 # плата головы после перепайки
-![pl2](https://ibb.co/68gD0t4)
+![pl2](https://i.ibb.co/tz8Yp2b/photo-2024-10-21-18-36-54.jpg)
