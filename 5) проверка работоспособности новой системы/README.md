@@ -8,10 +8,38 @@
 
 Занесли эти даныне в конфиг, принтер готов к работе.
 Проведите :
-1) Пид калибровку
+1) Пид калибровку 
+```shell
+PID_CALIBRATE HEATER=extruder TARGET=255
+PID_CALIBRATE HEATER=heater_bed TARGET=80
+```
 2) Калибровку тензисторов на нужной вам температуре
-3) Калибровку стола
-4) Калибровку шейперов
-5) Отпечатайте тестовую модель
+   Нагрейте стол до нужной температуры, введите команду
+    ```shell
+    H7
+    H1
+    ```
+  Установите 500 грам по середине стола (бутылка воды 0.5 литра) введите 
+    ```shell
+    H2
+    H7
+    ```
+    Сохраните калибровку
+     ```shell
+     H3
+     ```
+4) Калибровку стола
+5) Калибровку шейперов
+  ```shell
+   G28
+   TEST_RESONANCES AXIS=X
+   TEST_RESONANCES AXIS=Y
+  ```
+  По ssh введите 
+ ```shell
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png
+~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png
+  ```
+6) Отпечатайте тестовую модель
 
 # На этом переход закончен
