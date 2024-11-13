@@ -60,16 +60,15 @@
 <br />
 
 ![eboard](https://i.postimg.cc/nhzm1FhH/photo-2024-11-09-14-16-15-2.jpg)
-
+<br />
+<br />
+<br />
 
 ## Плата головы до перепайки
 <br />
 
 ![pl1](https://i.ibb.co/8zYpP08/photo-2024-10-02-09-50-16.jpg[)
 <br />
-<br />
-<br />
-
 ## Плата головы после перепайки
 <br />
 
