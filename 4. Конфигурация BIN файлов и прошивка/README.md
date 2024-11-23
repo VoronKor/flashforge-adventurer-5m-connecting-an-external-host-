@@ -56,15 +56,16 @@ p.s Разница между ними не велика, но для PB9 у mai
 
 ### Прошивка
 Подключаем к STLINK поочередно платы, запускаем stm32cubeprog:
-![cubeprog](https://ibb.co/GpcvD6b)
+![cubeprog](https://i.ibb.co/1Q8fNgw/Screenshot-8.png)
 <br />
 <br />
 Настройки выставляйте как у меня, и жмем connect.
 - В случае если камень не подключился, понизьте частоту до 25 кгц, а reset mode переведите в режим core reset и переподключите программатор.
 - В случае успеха вы увидите следующую картинку:
-![cubeprog_1](https://ibb.co/S6J3Xgd)
+![cubeprog_1](https://i.ibb.co/zmN4hg7/Screenshot-9.png)
 <br />
 Нажмите кнопку open file и выберите скомпилированную и скаченную ранее прошивку для вашего микроконтроллера и нажмите кнопку download.
-![cubeprog_2](https://ibb.co/P40Bc2p)
+<br />
+![cubeprog_2](https://i.ibb.co/6bL6HKh/Screenshot-10.png)
 После чего начнется загрузка прошивки в MCU. По завершению stm32cubeprog оповестит вас об успешной прошивке.
 <br />
