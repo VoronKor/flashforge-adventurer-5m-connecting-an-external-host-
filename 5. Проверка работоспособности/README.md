@@ -27,6 +27,9 @@ PID_CALIBRATE HEATER=heater_bed TARGET=80
      H3
      ```
 4) Калибровку стола
+```shell
+BED_MESH_CALIBRATE PROFILE="default"
+ ```
 5) Калибровку шейперов
   ```shell
    G28
