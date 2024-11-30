@@ -19,4 +19,5 @@
 Поддержать разработку новый материнки, под FF AD5M  для более лекого подключения внешнего хоста, можно по кнопке
 <br />
 
-[![donat](https://i.ibb.co/MMCp1Hk/donat.png)](https://www.donationalerts.com/r/voron_kor)
+[![donat](https://i.ibb.co/MMCp1Hk/donat.png)](https://www.donationalerts.com/widget/goal/8319498?token=qFQ8Z6fyGytobzM4VJAA)
+
