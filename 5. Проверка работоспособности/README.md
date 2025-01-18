@@ -44,3 +44,17 @@ BED_MESH_CALIBRATE PROFILE="default"
 6) Отпечатайте тестовую модель<br /><br />
 
 # На этом переход на внешний хост закончен.
+
+
+если при попытке снятия шейперво вылетает ошибка <br /><br />
+ ```shell
+Failed to import `numpy` module, make sure it was installed via `~/klippy-env/bin/pip install` (refer to docs/Measuring_Resonances.md for more details).
+
+  ```
+<br /><br />
+То откройте консоль вашего линукс компьютера и введите следующее, это установит недостающие пакеты
+<br /><br />
+ ```shell
+sudo apt update
+sudo apt install python3-numpy python3-matplotlib libatlas-base-dev libopenblas-dev
+  ```
