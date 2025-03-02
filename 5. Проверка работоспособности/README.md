@@ -57,4 +57,6 @@ Failed to import `numpy` module, make sure it was installed via `~/klippy-env/bi
  ```shell
 sudo apt update
 sudo apt install python3-numpy python3-matplotlib libatlas-base-dev libopenblas-dev
+
+~/klippy-env/bin/pip install -v numpy
   ```
