@@ -11,7 +11,7 @@
 PID_CALIBRATE HEATER=extruder TARGET=255
 PID_CALIBRATE HEATER=heater_bed TARGET=80
 ```
-2) Калибровку тензисторов на нужной вам температуре
+2) Калибровку тензисторов на нужной вам температуре , при использовании расширения от [@minicx](https://github.com/loss-and-quick/klipper/blob/flashforge-5m-dev/klippy/extras/flashforge_loadcell.py) второй пункт не подойдет
    Нагрейте стол до нужной температуры, введите команду
     ```shell
     H7
@@ -26,11 +26,11 @@ PID_CALIBRATE HEATER=heater_bed TARGET=80
      ```shell
      H3
      ```
-4) Калибровку стола
+3) Калибровку стола
 ```shell
 BED_MESH_CALIBRATE PROFILE="default"
  ```
-5) Калибровку шейперов
+4) Калибровку шейперов
   ```shell
    G28
    TEST_RESONANCES AXIS=X
