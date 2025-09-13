@@ -39,7 +39,7 @@
 <br />
 <br />
 
-# Устарело, рекомендуется использовать расширение от @minicx 
+# Устарело, рекомендуется использовать расширение от [@minicx](https://github.com/loss-and-quick/klipper/blob/flashforge-5m-dev/klippy/extras/flashforge_loadcell.py) <br />
 ## Подключение tensistor board я описал в другом гите (https://github.com/VoronKor/tensistor_board_adm5)
 <br />
 <br />
