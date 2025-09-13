@@ -10,7 +10,7 @@
 3. Третий на управление платой тензометров (для настройки и калибровки стола)
 
 ## Update от 13.09.2025
-### количество необходимых юартов можно снизить до 2, если использовать расширение тенз от @minicx [rpi4](https://github.com/loss-and-quick/klipper/blob/flashforge-5m-dev/klippy/extras/flashforge_loadcell.py)
+### количество необходимых юартов можно снизить до 2, если использовать расширение тенз от  [@minicx](https://github.com/loss-and-quick/klipper/blob/flashforge-5m-dev/klippy/extras/flashforge_loadcell.py) <br />
 
 
 ## К примеру:
